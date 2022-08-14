@@ -2,10 +2,10 @@
 
 
 const fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]
-const num = 0
+const num = 00   // Número usado para o teste
 let res = 0
 
-for(i = 0; res <= num && res != 0; i++){
+for(i = 0; res <= num; i++){
     res = fib[i] + fib[i + 1];
     if (res === num)break;
 }
